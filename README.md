@@ -1,16 +1,45 @@
-# ishraqa_app
+# 🌟 إشراقة يومية | Ishraqa Yawmeya
 
-A new Flutter project.
+تطبيق **إشراقة يومية** هو تطبيق Flutter بسيط وفعّال يعرض اقتباسات ملهمة ومتجددة يوميًا في مجالات مثل:
+- الذكاء الاصطناعي 🤖
+- الإعلام 📺
+- التحفيز 🔥
+- التكنولوجيا 💡
 
-## Getting Started
+## 📸 صور من التطبيق
 
-This project is a starting point for a Flutter application.
+| الشاشة الرئيسية | صفحة التفاصيل | صفحة التصنيفات |
+|------------------|------------------|------------------|
+| ![Home](screenshots/home.png) | ![Details](screenshots/details.png) | ![Categories](screenshots/categories.png) |
 
-A few resources to get you started if this is your first Flutter project:
+> *(يرجى رفع صور الشاشة في مجلد `screenshots` داخل المشروع)*
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 الميزات
+
+- اقتباسات عشوائية حسب اهتماماتك.
+- تصنيفات متعددة لسهولة التصفح.
+- إضافة الاقتباسات إلى المفضلة.
+- نسخ ومشاركة الاقتباسات بسهولة.
+- تصميم بسيط وجذاب يدعم اللغة العربية بالكامل.
+
+---
+
+## 🧰 التقنيات المستخدمة
+
+- [Flutter](https://flutter.dev/)
+- `shared_preferences` لتخزين المفضلة محليًا.
+- `url_launcher` لفتح الروابط.
+- `share_plus` لمشاركة المحتوى.
+- دعم اتجاه النص RTL.
+
+---
+
+## ⚙️ طريقة التشغيل
+
+1. تأكد أنك قمت بتثبيت Flutter و Dart.
+2. استنسخ المستودع:
+   ```bash
+   git clone https://github.com/Saifuddin2Ahmed/ishraqa_yawmeya.git
+   cd ishraqa_yawmeya
