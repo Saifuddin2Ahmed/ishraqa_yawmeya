@@ -1,0 +1,49 @@
+name: ishraqa_app
+description: "تطبيق إشراقة يومية لعرض اقتباسات محفّزة ومفيدة"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-180.3.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.2
+  share_plus: ^7.2.1
+  url_launcher: ^6.2.5
+  flutter_native_splash: ^2.3.2
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo_icon.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/logo_splash.png
+  android: true
+  ios: true
+  web: false
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/logo_splash.png
+    - assets/logo_icon.png
+
+# 🛠️ الحل للمشكلة الحالية
+dependency_overrides:
+  fading_edge_scrollview: ^2.0.0
