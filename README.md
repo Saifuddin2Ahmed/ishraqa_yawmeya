@@ -12,8 +12,6 @@
 |------------------|------------------|------------------|
 | ![Home](screenshots/home.png) | ![Details](screenshots/details.png) | ![Categories](screenshots/categories.png) |
 
-> *(يرجى رفع صور الشاشة في مجلد `screenshots` داخل المشروع)*
-
 ---
 
 ## 🚀 الميزات
