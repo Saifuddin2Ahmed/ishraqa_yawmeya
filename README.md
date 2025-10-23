@@ -34,10 +34,6 @@
 
 ---
 
-## ⚙️ طريقة التشغيل
-
-1. تأكد أنك قمت بتثبيت Flutter و Dart.
-2. استنسخ المستودع:
-   ```bash
-   git clone https://github.com/Saifuddin2Ahmed/ishraqa_yawmeya.git
-   cd ishraqa_yawmeya
+## ⚙️ رابط التطبيق علي متجر قوقل 
+تطبيق إشراقة يومية 
+https://play.google.com/store/apps/details?id=com.taeziz.ishraqa
